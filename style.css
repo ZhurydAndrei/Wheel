@@ -1,0 +1,49 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+.wrapper_wheel {
+    position: relative;
+}
+.center-circle {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    width: 220px;
+    height: 220px;
+    top: 22%;
+    left: 44%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.center-circle .wrapper_circle {
+    margin: auto;
+}
+
+.wrapper_wheel .heading {
+    color: #222222;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.center-circle > button {
+    display: inline-block;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #7e41ea;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+}
+
+.wrapper_wheel > img {
+    position: absolute;
+    left: 48.7%;
+    top: -10px;
+    max-width: 50px;
+}
